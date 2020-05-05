@@ -1,0 +1,23 @@
+{
+  "name": "export-notes",
+  "version": "1.0.0",
+  "description": "Export Notes from backed up database",
+  "engines": {
+    "node": ">=14.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm run lint",
+    "lint": "eslint . --fix"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.21.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0"
+  }
+}
